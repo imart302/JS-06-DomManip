@@ -7,6 +7,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  --color-gradient: linear-gradient(#e66465, #9198e5);
 }
 
 .container {
@@ -17,7 +18,7 @@ body {
 }
 
 .profile {
-  background: linear-gradient(#e66465, #9198e5);
+  background: var(--color-gradient);
   margin: 30px;
   border-radius: 5px;
   padding: 15px;
@@ -38,7 +39,7 @@ body {
 
 button {
   padding: 8px;
-  background: linear-gradient(#e66465, #9198e5);
+  background: var(--color-gradient);
   border-width: 0;
   border-radius: 5px;
   cursor: pointer;
